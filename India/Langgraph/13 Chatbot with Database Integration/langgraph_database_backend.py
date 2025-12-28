@@ -10,7 +10,9 @@ import sqlite3
 load_dotenv()
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-pro",
+    # model="models/gemini-2.5-pro",
+    model="models/gemini-2.5-flash",
+    # model="gemini-3-pro-preview",
     temperature=0.3,
 )
 
